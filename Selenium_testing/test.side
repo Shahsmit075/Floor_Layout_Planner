@@ -1,0 +1,735 @@
+{
+  "id": "35a17b62-925c-4754-8ed8-701eccc7a0da",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "140bf809-8334-4c23-a23e-0f5b48220ac7",
+    "name": "test5",
+    "commands": [{
+      "id": "0e4c550a-ef0c-4ca9-9267-62ff33d54c37",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa0bc5c6-053a-4a14-9d4c-cbb09b9f695d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03d62be4-6637-45eb-a879-67ed7edeabb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cta-button",
+      "targets": [
+        ["css=.cta-button", "css:finder"],
+        ["xpath=//button[@onclick='navigate()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Designing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9877df-04e4-483e-a476-2ceee4e6db72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-new-file-button > span",
+      "targets": [
+        ["css=#extension-floorplanner-new-file-button > span", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-new-file-button']/span", "xpath:idRelative"],
+        ["xpath=//li[14]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'📁')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "835af6da-47f6-414e-805c-50a6b7ddcb3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687c83dd-0921-47dd-8d3c-7e034f02e6a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "floor"
+    }, {
+      "id": "b9a35cd6-c2d3-4591-896b-88a8bf8a193c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid",
+      "targets": [
+        ["css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid", "css:finder"],
+        ["xpath=//img[@onclick=\"initHistory('newSquare');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[3]/div[2]/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a290724-50b6-4cb1-9f88-237cd6a7b36d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-text_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b269fc31-fc84-4890-bd63-e92556a5d9e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-text_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb01853-f6b2-4367-9303-3895985d062f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-text_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e7bffc9-bb94-4b20-944a-09ed1f1108b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-boxSurface > .extension-floorplanner-room",
+      "targets": [
+        ["css=#extension-floorplanner-boxSurface > .extension-floorplanner-room", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f2fc81-d3d5-4561-b72f-8e6f1c4589bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=extension-floorplanner-text-size-slider",
+      "targets": [
+        ["id=extension-floorplanner-text-size-slider", "id"],
+        ["css=#extension-floorplanner-text-size-slider", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-text-size-slider']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-text-size-container']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/input", "xpath:position"]
+      ],
+      "value": "60"
+    }, {
+      "id": "60c6870f-c064-4de0-bd47-fc02e1269033",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-text-size-slider",
+      "targets": [
+        ["id=extension-floorplanner-text-size-slider", "id"],
+        ["css=#extension-floorplanner-text-size-slider", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-text-size-slider']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-text-size-container']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8c0e07-1cf2-46b9-9e9a-12d2f2ed7798",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-labelBox",
+      "targets": [
+        ["id=extension-floorplanner-labelBox", "id"],
+        ["css=#extension-floorplanner-labelBox", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-labelBox']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-textToLayer']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "665f4296-15c2-4e9d-b2c3-050c449aeb90",
+      "comment": "",
+      "command": "type",
+      "target": "id=extension-floorplanner-labelBox",
+      "targets": [
+        ["id=extension-floorplanner-labelBox", "id"],
+        ["css=#extension-floorplanner-labelBox", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-labelBox']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-textToLayer']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "area"
+    }, {
+      "id": "951c0f59-1c4d-4f33-88a9-43822098c80b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.extension-floorplanner-textEditorColor:nth-child(9)",
+      "targets": [
+        ["css=.extension-floorplanner-textEditorColor:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='extension-floorplanner-text-colors-container']/div[9]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0254340d-4e9e-490a-b6ab-0014a0836834",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-save-text",
+      "targets": [
+        ["id=extension-floorplanner-save-text", "id"],
+        ["css=#extension-floorplanner-save-text", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-save-text']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-textToLayer']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a0f3ce-d4bc-421a-8b9f-791c59b98fab",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd791555-32fe-4fec-a451-e3c1da336732",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-delete-button",
+      "targets": [
+        ["id=extension-floorplanner-delete-button", "id"],
+        ["css=#extension-floorplanner-delete-button", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-delete-button']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-panel-scrollerX']/ul/li[16]/button", "xpath:idRelative"],
+        ["xpath=//li[16]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'🗑 Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce907dd0-a6c5-4ac5-acb8-2a673f445a08",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Are you sure you want to delete this floorplan?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ea06787-d669-4e30-8479-71f9a0c62175",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e7c1660-e82d-4e77-90e0-adc2593c6b1d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc7f78fe-1adf-4724-8519-3bd98010d4d3",
+    "name": "test1",
+    "commands": [{
+      "id": "821d7e36-74f8-488c-96f4-dcc9b85e20f8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05062197-b42c-4311-b7e8-69ade4bec26d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f03504d-53e4-477a-8b82-a79eef512471",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cta-button",
+      "targets": [
+        ["css=.cta-button", "css:finder"],
+        ["xpath=//button[@onclick='navigate()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Designing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa3c8e3-856c-42f8-a0b2-62574c74460a",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > #extension-floorplanner-new-file-button",
+      "targets": [
+        ["css=li > #extension-floorplanner-new-file-button", "css:finder"],
+        ["xpath=(//button[@id='extension-floorplanner-new-file-button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-panel-scrollerX']/ul/li[14]/button", "xpath:idRelative"],
+        ["xpath=//li[14]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'📁 New')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b287436b-92c6-4f91-9da7-1e4d1219c3da",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "216bb57a-5a57-4413-a450-56e55fd9e7c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "hello1"
+    }, {
+      "id": "9b38dd35-810e-40d3-87b3-817a71ec1627",
+      "comment": "",
+      "command": "click",
+      "target": "css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid",
+      "targets": [
+        ["css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid", "css:finder"],
+        ["xpath=//img[@onclick=\"initHistory('newSquare');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[3]/div[2]/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b20d33d-0ad8-4554-bda3-72133b53f28d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-line_mode > img",
+      "targets": [
+        ["css=#extension-floorplanner-line_mode > img", "css:finder"],
+        ["xpath=//img[@alt='Wall']", "xpath:img"],
+        ["xpath=//button[@id='extension-floorplanner-line_mode']/img", "xpath:idRelative"],
+        ["xpath=//div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84643d91-fdff-46ca-8cd7-62948af724c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-partition_mode > .extension-floorplanner-unicode-icon-medium",
+      "targets": [
+        ["css=#extension-floorplanner-partition_mode > .extension-floorplanner-unicode-icon-medium", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-partition_mode']/span", "xpath:idRelative"],
+        ["xpath=//div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'━')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11dc6c88-0410-4108-ac0d-0af389c273bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-node_mode > .extension-floorplanner-unicode-icon-medium",
+      "targets": [
+        ["css=#extension-floorplanner-node_mode > .extension-floorplanner-unicode-icon-medium", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-node_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'✂')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9ada4b1-5bee-42b1-af0e-f270d4625826",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-room_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-room_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-room_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'🎨')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b798657-409e-4b04-aa66-1904843ba3f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-object_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-object_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-object_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'🛋')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57225c78-d7f2-48e6-9f9f-36d159d08fa0",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "929df310-f352-41fa-b55f-34854d434850",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-delete-button",
+      "targets": [
+        ["id=extension-floorplanner-delete-button", "id"],
+        ["css=#extension-floorplanner-delete-button", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-delete-button']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-panel-scrollerX']/ul/li[16]/button", "xpath:idRelative"],
+        ["xpath=//li[16]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'🗑 Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca195501-745e-4ab0-986f-b02db67ceb0f",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Are you sure you want to delete this floorplan?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c7f00f8-005e-42aa-9c2f-a8f17955d6f1",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0faec4f-377b-416d-bda4-7518f1e6632c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-select_mode > img",
+      "targets": [
+        ["css=#extension-floorplanner-select_mode > img", "css:finder"],
+        ["xpath=//img[@alt='select']", "xpath:img"],
+        ["xpath=//button[@id='extension-floorplanner-select_mode']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "21bedf89-3bee-4ecf-b93f-a5c8e7e0cb59",
+    "name": "test3",
+    "commands": [{
+      "id": "b5c52b9b-c11f-434b-8b50-b002e85116d9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "879414fa-38d7-4cff-8707-baad12b1794b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb560e98-583a-4a7b-9234-ccf18d5e8a4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next",
+      "targets": [
+        ["css=.next", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7a0b33-266f-4750-92cd-c5378bfd0278",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next",
+      "targets": [
+        ["css=.next", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3115d53-9d75-4a11-877b-8f8b53804e30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cta-button",
+      "targets": [
+        ["css=.cta-button", "css:finder"],
+        ["xpath=//button[@onclick='navigate()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Designing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6bc19f-acdc-48b9-ae94-430b543966d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-distance_mode",
+      "targets": [
+        ["id=extension-floorplanner-distance_mode", "id"],
+        ["css=#extension-floorplanner-distance_mode", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-distance_mode']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-panel-scrollerX']/ul/li[5]/button", "xpath:idRelative"],
+        ["xpath=//li[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab03f05-e83a-4b43-a4d7-c081e5a3eb33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.extension-floorplanner-tape-measure-icon",
+      "targets": [
+        ["css=.extension-floorplanner-tape-measure-icon", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-distance_mode']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "064f4f07-7f8d-4c8f-ad70-b12983b5f068",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#extension-floorplanner-boxbind > path",
+      "targets": [
+        ["css=#extension-floorplanner-boxbind > path", "css:finder"]
+      ],
+      "value": "2215.3779296875,2651.3779296875"
+    }, {
+      "id": "cddbbf25-6b2a-4174-88ab-1e71534b6b14",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#extension-floorplanner-boxbind > path",
+      "targets": [
+        ["css=#extension-floorplanner-boxbind > path", "css:finder"]
+      ],
+      "value": "2654.3779296875,2654.3779296875"
+    }, {
+      "id": "c59229ed-3dc0-4109-8ad1-c7fc18f2149b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#extension-floorplanner-boxbind > path",
+      "targets": [
+        ["css=#extension-floorplanner-boxbind > path", "css:finder"]
+      ],
+      "value": "2654.3779296875,2654.3779296875"
+    }, {
+      "id": "e9f59e56-32c6-49f6-a02a-59e3f1454931",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8247c97e-764e-42a8-ba8c-8c0b57262b54",
+    "name": "test4",
+    "commands": [{
+      "id": "4b8055b2-d9af-4499-83bf-ed88f3968ca5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1e180f4-6e76-4565-ac28-555c135dd509",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe362f74-64df-460c-80eb-587537a22161",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cta-button",
+      "targets": [
+        ["css=.cta-button", "css:finder"],
+        ["xpath=//button[@onclick='navigate()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Designing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ec5821-1f50-48e5-bfff-54902b1db349",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > #extension-floorplanner-new-file-button",
+      "targets": [
+        ["css=li > #extension-floorplanner-new-file-button", "css:finder"],
+        ["xpath=(//button[@id='extension-floorplanner-new-file-button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-panel-scrollerX']/ul/li[14]/button", "xpath:idRelative"],
+        ["xpath=//li[14]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'📁 New')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa55d403-dd80-454e-91de-3b1e8eaf55a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f36f45d3-c80e-47c0-affa-ccb6c16b7ee1",
+      "comment": "",
+      "command": "type",
+      "target": "id=extension-floorplanner-modal-new-floorplan-name-input",
+      "targets": [
+        ["id=extension-floorplanner-modal-new-floorplan-name-input", "id"],
+        ["css=#extension-floorplanner-modal-new-floorplan-name-input", "css:finder"],
+        ["xpath=//input[@id='extension-floorplanner-modal-new-floorplan-name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "hello2"
+    }, {
+      "id": "da0a0605-b898-4266-b3e9-395d64ffd48d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid",
+      "targets": [
+        ["css=.extension-floorplanner-boxMouseOver:nth-child(2) > .extension-floorplanner-img-fluid", "css:finder"],
+        ["xpath=//img[@onclick=\"initHistory('newSquare');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='extension-floorplanner-newFileModal']/div/div/div[3]/div[2]/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fe9e6d3-7a80-4afb-a6f8-c805fce08921",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-partition_mode > .extension-floorplanner-unicode-icon-medium",
+      "targets": [
+        ["css=#extension-floorplanner-partition_mode > .extension-floorplanner-unicode-icon-medium", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-partition_mode']/span", "xpath:idRelative"],
+        ["xpath=//div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'━')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e31a9f68-d622-434e-8332-b404eccd2413",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=extension-floorplanner-partition_mode",
+      "targets": [
+        ["id=extension-floorplanner-partition_mode", "id"],
+        ["css=#extension-floorplanner-partition_mode", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-partition_mode']", "xpath:attributes"],
+        ["xpath=//li[@id='extension-floorplanner-wall-buttons']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'━')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ca9ca4-245d-41fe-8839-fc61253dbb2c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#extension-floorplanner-boxSurface > .extension-floorplanner-room",
+      "targets": [
+        ["css=#extension-floorplanner-boxSurface > .extension-floorplanner-room", "css:finder"]
+      ],
+      "value": "420.73272705078125,138.12440490722656"
+    }, {
+      "id": "a457882e-0fe9-4099-a69d-ad8d8939f6d1",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#extension-floorplanner-boxSurface > .extension-floorplanner-room",
+      "targets": [
+        ["css=#extension-floorplanner-boxSurface > .extension-floorplanner-room", "css:finder"]
+      ],
+      "value": "420.73272705078125,138.12440490722656"
+    }, {
+      "id": "142c994c-157f-419d-ade5-062735282750",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#extension-floorplanner-boxSurface > .extension-floorplanner-room",
+      "targets": [
+        ["css=#extension-floorplanner-boxSurface > .extension-floorplanner-room", "css:finder"]
+      ],
+      "value": "420.73272705078125,138.12440490722656"
+    }, {
+      "id": "5f72529e-96f2-4d65-a132-2168297cd106",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-select_mode > img",
+      "targets": [
+        ["css=#extension-floorplanner-select_mode > img", "css:finder"],
+        ["xpath=//img[@alt='select']", "xpath:img"],
+        ["xpath=//button[@id='extension-floorplanner-select_mode']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1651fd3-4920-4ee9-9dc3-0cabfbfb3fad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-object_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-object_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-object_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'🛋')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d598abc-e24d-4718-92d0-2b1764c47d3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large",
+      "targets": [
+        ["css=#extension-floorplanner-text_mode > .extension-floorplanner-unicode-icon-large", "css:finder"],
+        ["xpath=//button[@id='extension-floorplanner-text_mode']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8f9562-054c-4b06-a8ab-f07ab9f5b49c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "226c7cfd-70f9-4a6a-9834-c2e8eb9724aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
